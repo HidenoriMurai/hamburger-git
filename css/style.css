@@ -1,4 +1,11 @@
+.l-header {
+  height: 217px;
+  width: 100%;
+  background-color: indianred;
+}
+
 .c-btn {
+  font-size: 50px;
   width: 200px;
   height: 20px;
 }
