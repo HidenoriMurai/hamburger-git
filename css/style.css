@@ -22,6 +22,12 @@ body {
   padding: 14px 16px 0 0;
 }
 
+.c-main__top-images {
+  height: 285px;
+  width: 100%;
+  vertical-align: bottom;
+}
+
 .p-header {
   width: 100vw;
   display: flex;
