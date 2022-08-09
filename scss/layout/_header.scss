@@ -1,7 +1,10 @@
-//@use "setting/color";
+
 
 .l-header{
+    position: relative;
+    display: block;
+    bottom: 4px;
     height: 217px;
-    width: 100%;
-    background-color:rgb(92, 205, 98);
+    width: 100vw;
+    background-color:#FFF7EF;
 }

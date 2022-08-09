@@ -1,0 +1,15 @@
+
+.p-header{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+        &__logo{
+            position: relative;
+            bottom: 4px;
+            height: 53px;
+            font-size: 40px;
+            color: #707070;
+    }
+}
