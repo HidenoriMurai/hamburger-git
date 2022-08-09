@@ -11,5 +11,26 @@
             height: 53px;
             font-size: 40px;
             color: #707070;
+}
+        &__form{
+            width: 100%; 
+            text-align: center;
+            padding: 34px 0 40px 0;
     }
+
+        &__search{
+            width: 230px;
+            height: 46px;
+            border-radius: 10px 10px 10px 10px;
+            border: 1px solid #000;
+            background-color: #fff;
+        }
+
+        &__submit{
+            height: 46px;
+            width: 78px;
+            background-color: #F2EDE9;
+            border: 1px solid #000;
+            border-radius: 10px 10px 10px 10px;
+        }
 }
