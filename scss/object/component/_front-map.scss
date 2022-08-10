@@ -1,0 +1,50 @@
+
+.c-main{
+
+    &__map-bg{
+        background-color: #000;
+        height: 100%;
+        width: 100%;
+        position: relative;
+    }
+
+    &__map-img{
+        background-image: url("/images/google-map.jpg");
+        background-size: cover;
+        width: 100vw;
+        height: 100%;
+        opacity: calc(0.6);
+        position: absolute;
+    }
+
+    &__map-cover{
+        width: 100%;
+        height: 415px;
+        background-color: #000;
+        opacity: calc(0.29);
+        position: absolute;
+    }
+
+    &__map-ttl{
+        position: absolute;
+        font-size: 30px;
+        font-weight: bold;
+        color: #fff;
+        margin: 40px 0 0 42px;
+    }
+
+    &__map--icon{
+        content: '';
+        height: 2px;
+        width: 75px;
+        background:#fff;
+        margin: 10px 0 0 0;
+    }
+
+    &__map-txt{
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 33px;
+        margin: 10px 40px 0 0;
+    }
+}

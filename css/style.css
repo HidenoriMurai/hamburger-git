@@ -123,6 +123,48 @@ body {
   margin: 7px 0 0 10px;
 }
 
+.c-main__map-bg {
+  background-color: #000;
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+.c-main__map-img {
+  background-image: url("/images/google-map.jpg");
+  background-size: cover;
+  width: 100vw;
+  height: 100%;
+  opacity: 0.6;
+  position: absolute;
+}
+.c-main__map-cover {
+  width: 100%;
+  height: 415px;
+  background-color: #000;
+  opacity: 0.29;
+  position: absolute;
+}
+.c-main__map-ttl {
+  position: absolute;
+  font-size: 30px;
+  font-weight: bold;
+  color: #fff;
+  margin: 40px 0 0 42px;
+}
+.c-main__map--icon {
+  content: "";
+  height: 2px;
+  width: 75px;
+  background: #fff;
+  margin: 10px 0 0 0;
+}
+.c-main__map-txt {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 33px;
+  margin: 10px 40px 0 0;
+}
+
 .p-header {
   width: 100vw;
   display: flex;
@@ -189,5 +231,10 @@ body {
   background: #707070;
   margin: 0.2em 0 0 0.14em;
   transform: rotate(45deg);
+}
+
+.p-main__map {
+  width: 100%;
+  height: 691px;
 }
 /*# sourceMappingURL=style.css.map */
