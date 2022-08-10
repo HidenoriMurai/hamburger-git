@@ -48,17 +48,45 @@ body {
   width: 45px;
   background: #fff;
 }
+.c-front__txt {
+  font-size: 16px;
+  color: #3C2A10;
+  font-weight: lighter;
+  margin: 0 0 15px 0;
+}
 .c-front__take-out {
   background-image: url("/images/take-out.jpg");
   margin: 20px 20px 20px 20px;
   height: 643px;
   background-size: cover;
+  display: block;
+  position: relative;
 }
 .c-front__take-out--logo {
   font-size: 41px;
   color: #fff;
   font-weight: bold;
   margin: 11px 0 0 15px;
+}
+.c-front__take-out--box {
+  position: absolute;
+  bottom: 0;
+}
+.c-front__take-out--box1 {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 0 15px 15px 15px;
+  height: auto;
+}
+.c-front__take-out--box2 {
+  background-color: rgba(255, 255, 255, 0.8);
+  margin: 0 15px 15px 15px;
+  height: auto;
+}
+.c-front__take-out--boxttl {
+  color: #3C2A10;
+  font-size: 22px;
+  font-weight: bold;
+  margin: 7px 0 0 10px;
 }
 .c-front__eat-in {
   background-image: url("/images/eat-in.jpg");
