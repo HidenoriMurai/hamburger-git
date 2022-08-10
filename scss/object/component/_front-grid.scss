@@ -1,0 +1,41 @@
+
+.c-front{
+    &__menu-icon{
+        content: '';
+        height: 5px;
+        width: 45px;
+        background:#fff;
+    }
+    
+
+    &__take-out{
+        background-image: url("/images/take-out.jpg");
+        margin: 20px 20px 20px 20px;
+        height: 643px;
+        background-size: cover;
+
+        &--logo{
+            font-size: 41px;
+            color: #fff;
+            font-weight: bold;
+            margin: 11px 0 0 15px;
+
+        }
+    }
+
+    &__eat-in{
+        background-image: url("/images/eat-in.jpg");
+        margin: 0 20px 20px 20px;
+        height: 643px;
+        background-size: cover;
+
+        &--logo{
+            font-size: 41px;
+            color: #fff;
+            font-weight: bold;
+            margin: 11px 0 0 15px;
+
+        }
+    }
+
+}
