@@ -1,7 +1,24 @@
 
 
-.c-main__top-images{
-height: 285px;
-width: 100%;
-vertical-align: bottom;
+.c-main{
+    display: flex;
+
+
+    &__top-images{
+        position: relative;
+        z-index: 20;
+        height: 285px;
+        width: 100%;
+        vertical-align: bottom;
+    }
+
+    &__sub-title{
+        position: absolute;
+        padding: 120px 0 0 25px;
+        margin: auto;
+        z-index: 30;
+        font-size: 36px;
+        color: #fff;
+        font-weight: bold;
+    }
 }
