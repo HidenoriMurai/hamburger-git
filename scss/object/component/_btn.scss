@@ -1,4 +1,4 @@
-
+//メニュー
 .c-button-box{
         display: flex;
         justify-content: flex-end;
@@ -16,4 +16,37 @@
 }  
 
 
+//バツボタン
+.c-btn__hamburger{
+        z-index: 1000;
+        width: 32px;
+        height: 32px;
+        position: relative;
+        cursor:pointer;
+        margin: 25px 17px 0 0;
+}
+.c-btn__hamburger-bar {
+        display: block;
+        width: 100%;
+        height: 4px;
+        position: absolute;
+        left: 0;
+        background:#707070;
+}
 
+.c-btn__hamburger-bar:nth-child(1) {
+        top: 50%;
+        transform: rotate(-45deg);
+}
+
+.c-btn__hamburger-bar:nth-child(2) {
+        top: 50%;
+        transform: translateY(-50%);
+        transform: rotate(45deg);
+        
+}
+
+.c-btn__close{
+        display: flex;
+        justify-content:flex-end;
+}

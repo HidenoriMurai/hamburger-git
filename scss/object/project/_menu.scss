@@ -1,0 +1,44 @@
+.p-menu{
+    position: relative;
+    z-index: 2000;
+    
+
+    &__bg{
+    width: 375px;
+    background-color: #F2EDE9;
+    }
+
+    &__burger{
+        padding-top: 212px;
+        font-size: 24px;
+        font-weight: bold;
+        margin: 0 0 0 46px;
+        color: #707070;
+    }
+
+    &__burger-menu{
+        margin: 40px 0 0 66px;
+    }
+
+    &__side{
+        font-size: 24px;
+        font-weight: bold;
+        color: #707070;
+        margin: 34px 0 0 46px;
+    }
+
+    &__side-menu{
+        margin: 40px 0 0 66px;
+    }
+
+    &__drink{
+        font-size: 24px;
+        font-weight: bold;
+        color: #707070;
+        margin: 38px 0 0 46px;
+    }
+
+    &__drink-menu{
+        margin: 40px 0 0 66px;
+    }
+}
