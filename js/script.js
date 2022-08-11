@@ -26,13 +26,15 @@ $(function() {
     });
 });
 
-
-
-
+//スライドメニュー
 $(".c-button--menu").click(function () {//ボタンがクリックされたら
-    $(".p-menu").toggleClass('p-menu-open');//ナビゲーションにpanelactiveクラスを付与
+    $(".p-menu").toggleClass('p-menu-open');//クラスを付与
+    $(".f-body").toggleClass('f-body_scroll');//クラスを付与
 });
 
-$(".c-btn__hamburger").click(function () {//ナビゲーションのリンクがクリックされたら
-    $(".p-menu").removeClass('p-menu-open');//ナビゲーションのクラスも除去
+
+$(".c-btn__hamburger").click(function () {//クリックされたら
+    $(".p-menu").removeClass('p-menu-open');//クラスも除去
+    $(".f-body").removeClass('f-body_scroll');//クラスも除去
 });
+
