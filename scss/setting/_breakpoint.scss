@@ -1,0 +1,18 @@
+@use "sass:math";
+
+/*ブレークポイント*/
+$tab: 600px;  //以上
+$pc: 1200px;   //以上
+
+
+@mixin tab{
+    @media (min-width: ($tab)) {
+    @content;
+    }
+}
+
+@mixin pc{
+    @media (max-width: ($pc)) {
+    @content;
+    }
+}
