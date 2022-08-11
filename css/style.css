@@ -342,12 +342,17 @@ body {
 }
 
 .p-menu {
-  position: relative;
+  position: fixed;
+  width: 100vw;
   z-index: 2000;
+  left: 100%;
+  transition: all 0.8s;
 }
 .p-menu__bg {
   width: 375px;
   background-color: #F2EDE9;
+  margin: 0 0 0 auto;
+  transition: all 0.8s;
 }
 .p-menu__burger {
   padding-top: 212px;
@@ -376,5 +381,9 @@ body {
 }
 .p-menu__drink-menu {
   margin: 40px 0 0 66px;
+}
+
+.p-menu-open {
+  left: 0;
 }
 /*# sourceMappingURL=style.css.map */

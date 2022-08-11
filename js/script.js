@@ -11,10 +11,28 @@ $(document).on('click',function(e) {
     } 
 });
 
-//オーバーレイ
+//オーバーレイ：フェードイン
 $(function() {
     // 「検索」ボタンクリック
     $(".c-button--menu").on('click', function() {
         $(".overlay").fadeIn();
     });
+});
+//　　　　　　：フェードアウト
+$(function() {
+    // 「バツ」ボタンクリック
+    $(".c-btn__close").on('click', function() {
+        $(".overlay").fadeOut();
+    });
+});
+
+
+
+
+$(".c-button--menu").click(function () {//ボタンがクリックされたら
+    $(".p-menu").toggleClass('p-menu-open');//ナビゲーションにpanelactiveクラスを付与
+});
+
+$(".c-btn__hamburger").click(function () {//ナビゲーションのリンクがクリックされたら
+    $(".p-menu").removeClass('p-menu-open');//ナビゲーションのクラスも除去
 });

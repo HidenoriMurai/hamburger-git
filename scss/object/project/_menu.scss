@@ -1,11 +1,16 @@
 .p-menu{
-    position: relative;
+    position: fixed;
+    width: 100vw;
     z-index: 2000;
+    left: 100%;
+    transition: all 0.8s;
     
 
     &__bg{
     width: 375px;
     background-color: #F2EDE9;
+    margin:0 0 0 auto;
+    transition: all 0.8s;
     }
 
     &__burger{
@@ -41,4 +46,9 @@
     &__drink-menu{
         margin: 40px 0 0 66px;
     }
+}
+
+
+.p-menu-open{
+    left: 0;
 }
