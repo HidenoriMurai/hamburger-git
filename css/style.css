@@ -17,13 +17,19 @@ body {
   background-color: #FFF7EF;
 }
 
+.c-button-box {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
 .c-button--menu {
-  position: relative;
+  margin: 14px 16px 0 0;
   z-index: 10;
-  display: block;
-  text-align: right;
+  color: #707070;
   font-size: 20px;
-  padding: 14px 16px 0 0;
+  font-weight: bold;
+  cursor: pointer;
 }
 
 .c-main {
@@ -167,6 +173,17 @@ body {
   font-weight: bold;
   line-height: 33px;
   margin: 10px 40px 0 0;
+}
+
+.overlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 1000;
+  display: none;
 }
 
 .p-header {

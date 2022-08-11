@@ -10,3 +10,11 @@ $(document).on('click',function(e) {
         $(".p-header__search-icon1").show();
     } 
 });
+
+//オーバーレイ
+$(function() {
+    // 「検索」ボタンクリック
+    $(".c-button--menu").on('click', function() {
+        $(".overlay").fadeIn();
+    });
+});
