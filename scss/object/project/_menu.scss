@@ -1,16 +1,18 @@
 .p-menu{
-    position: fixed;
     width: 100vw;
     z-index: 2000;
     left: 100%;
     transition: all 0.8s;
+    position: fixed;
+    overflow: auto;
+    height: 100%;
     
 
-    &__bg{
+    &__bg{   
     width: 375px;
     background-color: #F2EDE9;
     margin:0 0 0 auto;
-    transition: all 0.8s;
+    
     }
 
     &__burger{
@@ -45,6 +47,7 @@
 
     &__drink-menu{
         margin: 40px 0 0 66px;
+        padding-bottom: 200px;
     }
 }
 

@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 .l-footer {
@@ -342,17 +343,18 @@ body {
 }
 
 .p-menu {
-  position: fixed;
   width: 100vw;
   z-index: 2000;
   left: 100%;
   transition: all 0.8s;
+  position: fixed;
+  overflow: auto;
+  height: 100%;
 }
 .p-menu__bg {
   width: 375px;
   background-color: #F2EDE9;
   margin: 0 0 0 auto;
-  transition: all 0.8s;
 }
 .p-menu__burger {
   padding-top: 212px;
@@ -381,6 +383,7 @@ body {
 }
 .p-menu__drink-menu {
   margin: 40px 0 0 66px;
+  padding-bottom: 200px;
 }
 
 .p-menu-open {
