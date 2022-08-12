@@ -1,3 +1,4 @@
+@use "../../foundation/breakpoint" as b;
 
 .p-header{
     width: 100vw;
@@ -19,6 +20,8 @@
             width: 100%; 
             text-align: center;
             padding: 34px 0 40px 0;
+            @include b.tab{
+            }
     }
 
         &__search{
@@ -29,6 +32,10 @@
             border-radius: 10px 10px 10px 10px;
             border: 1px solid #000;
             background-color: #fff;
+                @include b.tab{
+                    width: 50%;
+                    max-width: 700px;
+                }
         }
 
         &__submit{
@@ -37,6 +44,10 @@
             background-color: #F2EDE9;
             border: 1px solid #000;
             border-radius: 10px 10px 10px 10px;
+                    @include b.tab{
+                        width: 50%;
+                        max-width: 100px;
+                    }
         }
 
 
@@ -50,6 +61,10 @@
             position: relative;
             z-index: 30;
             cursor: pointer;
+                    @include b.tab{
+                        right: 23%;
+                        transform:translateX(-50px);
+                    }
         }
         &__search-icon2{
             position: absolute;

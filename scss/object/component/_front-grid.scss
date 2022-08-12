@@ -1,3 +1,5 @@
+@use "../../foundation/breakpoint" as b;
+
 
 .c-front{
     &__menu-icon{
@@ -22,6 +24,10 @@
         background-size: cover;
         display:block;
         position: relative;
+                @include b.tab{
+                    width:100%;
+                    margin: 30px 15px 20px 30px;
+                }
 
 
         &--logo{
@@ -68,6 +74,11 @@
         background-size: cover;
         display:block;
         position: relative;
+            @include b.tab{
+                width: 100%;
+                top: 20px;
+                margin: 10px 30px 49px 15px;
+            }
 
 
         &--logo{

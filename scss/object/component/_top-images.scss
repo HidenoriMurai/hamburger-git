@@ -1,4 +1,4 @@
-@use "../../foundation/breakpoint";
+@use "../../foundation/breakpoint" as b;
 
 .c-main{
     display: flex;
@@ -21,8 +21,8 @@
         color: white;
         font-weight: bold;
 
-            @include tab{
-                color: black;
+            @include b.tab{
+                display: none;
             }
     }
 }
