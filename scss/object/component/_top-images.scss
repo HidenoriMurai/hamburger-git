@@ -1,5 +1,4 @@
-@use "../../setting/breakpoint";
-
+@forward "../../foundation/breakpoint";
 
 .c-main{
     display: flex;
