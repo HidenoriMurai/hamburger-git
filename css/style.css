@@ -1,3 +1,5 @@
+@charset "UTF-8";
+/*ブレークポイント*/
 body {
   margin: 0;
   padding: 0;
@@ -86,7 +88,7 @@ body {
   margin: auto;
   z-index: 30;
   font-size: 36px;
-  color: #fff;
+  color: white;
   font-weight: bold;
 }
 

@@ -1,3 +1,4 @@
+@use "../../setting/breakpoint";
 
 
 .c-main{
@@ -18,7 +19,11 @@
         margin: auto;
         z-index: 30;
         font-size: 36px;
-        color: #fff;
+        color: white;
         font-weight: bold;
+
+            @include tab{
+                color: black;
+            }
     }
 }
