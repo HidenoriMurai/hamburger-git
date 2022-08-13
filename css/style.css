@@ -432,6 +432,7 @@ body {
 @media (min-width: 1200px) {
   .p-menu {
     position: inherit;
+    width: 100%;
     left: 0;
     transition: none;
   }
