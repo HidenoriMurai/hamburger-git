@@ -429,6 +429,13 @@ body {
   overflow: auto;
   height: 100%;
 }
+@media (min-width: 1200px) {
+  .p-menu {
+    position: inherit;
+    left: 0;
+    transition: none;
+  }
+}
 .p-menu__bg {
   width: 375px;
   background-color: #F2EDE9;
