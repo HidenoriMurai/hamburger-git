@@ -1,0 +1,7 @@
+@use "../foundation/breakpoint" as b;
+
+.l-menu{
+    @include b.pc{
+
+    }
+}
