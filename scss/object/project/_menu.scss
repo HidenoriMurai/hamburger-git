@@ -1,3 +1,5 @@
+@use "../../foundation/breakpoint" as b;
+
 .p-menu{
     width: 100vw;
     z-index: 2000;
@@ -6,6 +8,11 @@
     position: fixed;
     overflow: auto;
     height: 100%;
+        @include b.pc{
+            position: inherit;
+            left: 0;
+            transition: none;
+        }
     
 
     &__bg{   
