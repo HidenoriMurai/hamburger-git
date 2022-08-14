@@ -420,7 +420,7 @@ body {
   margin-top: 34px;
 }
 
-.p-menu {
+.p-aside {
   width: 100vw;
   z-index: 2000;
   left: 100%;
@@ -430,48 +430,48 @@ body {
   height: 100%;
 }
 @media (min-width: 1200px) {
-  .p-menu {
+  .p-aside {
     position: inherit;
     left: 0;
     transition: none;
   }
 }
-.p-menu__bg {
+.p-aside__bg {
   width: 375px;
   background-color: #F2EDE9;
   margin: 0 0 0 auto;
 }
-.p-menu__burger {
+.p-aside__burger {
   padding-top: 212px;
   font-size: 24px;
   font-weight: bold;
   margin: 0 0 0 46px;
   color: #707070;
 }
-.p-menu__burger-menu {
+.p-aside__burger-menu {
   margin: 40px 0 0 66px;
 }
-.p-menu__side {
+.p-aside__side {
   font-size: 24px;
   font-weight: bold;
   color: #707070;
   margin: 34px 0 0 46px;
 }
-.p-menu__side-menu {
+.p-aside__side-menu {
   margin: 40px 0 0 66px;
 }
-.p-menu__drink {
+.p-aside__drink {
   font-size: 24px;
   font-weight: bold;
   color: #707070;
   margin: 38px 0 0 46px;
 }
-.p-menu__drink-menu {
+.p-aside__drink-menu {
   margin: 40px 0 0 66px;
   padding-bottom: 200px;
 }
 
-.p-menu-open {
+.p-aside-open {
   left: 0;
 }
 /*# sourceMappingURL=style.css.map */

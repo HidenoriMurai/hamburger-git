@@ -28,13 +28,13 @@ $(function() {
 
 //スライドメニュー
 $(".c-button--menu").click(function () {//ボタンがクリックされたら
-    $(".p-menu").toggleClass('p-menu-open');//クラスを付与
+    $(".p-aside").toggleClass('p-aside-open');//クラスを付与
     $(".f-body").toggleClass('f-body_scroll');//クラスを付与
 });
 
 
 $(".c-btn__hamburger").click(function () {//クリックされたら
-    $(".p-menu").removeClass('p-menu-open');//クラスも除去
+    $(".p-aside").removeClass('p-aside-open');//クラスも除去
     $(".f-body").removeClass('f-body_scroll');//クラスも除去
 });
 

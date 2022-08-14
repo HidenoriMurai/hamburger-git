@@ -1,6 +1,6 @@
 @use "../../foundation/breakpoint" as b;
 
-.p-menu{
+.p-aside{
     width: 100vw;
     z-index: 2000;
     left: 100%;
@@ -59,6 +59,6 @@
 }
 
 
-.p-menu-open{
+.p-aside-open{
     left: 0;
 }
