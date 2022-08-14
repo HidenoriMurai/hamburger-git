@@ -498,6 +498,8 @@ body {
 .p-archive__top-images {
   vertical-align: bottom;
   opacity: 0.5;
+  width: 100%;
+  height: 100%;
 }
 .p-archive__top-sub-title {
   position: absolute;
