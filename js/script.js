@@ -1,6 +1,6 @@
 //虫眼鏡の非表示
 $(function(){
-    $(".p-header__search").on("click",function(){
+    $(".js-header__search").on("click",function(){
         $(".p-header__search-icon1").hide();
     });
 });
