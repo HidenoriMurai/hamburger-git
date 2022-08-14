@@ -299,7 +299,7 @@ body {
 }
 
 @media (min-width: 600px) {
-  .p-front__grid {
+  .p-front__contents {
     display: flex;
     width: 100%;
     justify-content: center;

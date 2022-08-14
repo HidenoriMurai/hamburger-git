@@ -1,6 +1,6 @@
 @use "../../foundation/breakpoint" as b;
 
-.p-front__grid{
+.p-front__contents{
     @include b.tab{
         display: flex;
         width: 100%;
