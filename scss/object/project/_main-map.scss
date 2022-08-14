@@ -1,9 +1,0 @@
-@use "../../foundation/breakpoint" as b;
-
-.p-main__map{
-    width: 100%;
-    height: 691px;
-    @include b.tab{
-        height: auto;
-    }
-}

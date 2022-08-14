@@ -1,6 +1,15 @@
 @use "../../foundation/breakpoint" as b;
 
-.c-main{
+.p-front{
+
+
+        &__map{
+    width: 100%;
+    height: 691px;
+    @include b.tab{
+        height: auto;
+        }
+    }
 
     &__map-bg{
         background-color: #000;
@@ -63,4 +72,10 @@
             padding-bottom: 40px;
         }
     }
+
+
+
+
+
+
 }
