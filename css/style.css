@@ -6,10 +6,6 @@ body {
   box-sizing: border-box;
 }
 
-.f-body_scroll {
-  overflow: hidden;
-}
-
 .l-footer {
   width: 100%;
 }
@@ -21,6 +17,10 @@ body {
   height: 217px;
   width: 100vw;
   background-color: #FFF7EF;
+}
+
+.l-body_scroll {
+  overflow: hidden;
 }
 
 .c-button-box {
