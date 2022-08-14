@@ -1,0 +1,16 @@
+
+.c-text-box{
+
+    &__ttl{
+        font-size: 28px;
+        font-weight: bold;
+        margin: 30px 0 30px 22px;
+    }
+
+    &__text{
+        font-size: 16px;
+        font-weight: lighter;
+        line-height: 23px;
+        margin: 0 22px 19px 22px;
+    }
+}
