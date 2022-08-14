@@ -10,7 +10,6 @@
     height: 100%;
         @include b.pc{
             position: inherit;
-            width:100%;
             left: 0;
             transition: none;
         }

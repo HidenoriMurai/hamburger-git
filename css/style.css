@@ -268,7 +268,7 @@ body {
   display: none;
 }
 
-.c-menu {
+.c-aside {
   font-size: 20px;
   font-weight: lighter;
   color: #707070;
@@ -432,7 +432,6 @@ body {
 @media (min-width: 1200px) {
   .p-menu {
     position: inherit;
-    width: 100%;
     left: 0;
     transition: none;
   }

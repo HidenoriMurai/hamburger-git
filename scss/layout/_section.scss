@@ -1,0 +1,12 @@
+@use "../foundation/breakpoint" as b;
+
+.l-section{
+    @include b.pc{
+    }
+        
+        &__layout{
+        @include b.pc{
+            
+            }
+        }
+}
