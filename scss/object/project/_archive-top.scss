@@ -1,0 +1,32 @@
+@use "../../foundation/breakpoint" as b;
+
+.p-archive__top{
+    display: flex;
+
+    &-bg{
+        background-color: black;
+        position: relative;
+        height: 285px;
+        width: 100%;
+    }
+
+
+    &-images{
+        vertical-align: bottom;
+        opacity: calc(0.5);
+    }
+
+    &-sub-title{
+        position: absolute;
+        padding: 120px 0 0 25px;
+        margin: auto;
+        z-index: 30;
+        font-size: 36px;
+        color: white;
+        font-weight: bold;
+
+            @include b.tab{
+                display: none;
+            }
+    }
+}
