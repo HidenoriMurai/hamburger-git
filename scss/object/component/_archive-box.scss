@@ -1,6 +1,10 @@
+@use "../../foundation/breakpoint" as b;
 
 .c-archive-box{
     margin: 19px 19px 0 19px;
+        @include b.tab{
+            display: flex;
+        }
 
     &__image{
         width: 100%;

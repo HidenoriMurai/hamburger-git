@@ -215,6 +215,11 @@ body {
 .c-archive-box {
   margin: 19px 19px 0 19px;
 }
+@media (min-width: 600px) {
+  .c-archive-box {
+    display: flex;
+  }
+}
 .c-archive-box__image {
   width: 100%;
 }
