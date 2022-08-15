@@ -1,7 +1,30 @@
 
 .c-archive-box{
+    margin: 19px 19px 0 19px;
 
     &__image{
-        
+        width: 100%;
+    }
+    &__inner{
+        position: relative;
+        background-color: #3C2B1C;
+    }
+    &__ttl{
+        color: #fff;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 32px 0 0 17px;
+    }
+    &__sub-ttl{
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        margin: 24px 0 0 17px;
+    }
+    &__text{
+        font-size: 16px;
+        font-weight: lighter;
+        color: #fff;
+        margin: 10px 73px 0 17px;
     }
 }

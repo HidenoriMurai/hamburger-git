@@ -72,6 +72,19 @@ body {
   justify-content: flex-end;
 }
 
+.c-btn__archive {
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  background: #fff;
+  color: #707070;
+  padding: 10px 41px;
+  border-radius: 30px;
+  margin: 40px 0 44px 0;
+  position: relative;
+  left: 25%;
+}
+
 .c-front__menu-icon {
   content: "";
   height: 5px;
@@ -196,7 +209,36 @@ body {
   font-size: 16px;
   font-weight: lighter;
   line-height: 23px;
-  margin: 0 22px 19px 22px;
+  margin: 0 22px 0 22px;
+}
+
+.c-archive-box {
+  margin: 19px 19px 0 19px;
+}
+.c-archive-box__image {
+  width: 100%;
+}
+.c-archive-box__inner {
+  position: relative;
+  background-color: #3C2B1C;
+}
+.c-archive-box__ttl {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 32px 0 0 17px;
+}
+.c-archive-box__sub-ttl {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 24px 0 0 17px;
+}
+.c-archive-box__text {
+  font-size: 16px;
+  font-weight: lighter;
+  color: #fff;
+  margin: 10px 73px 0 17px;
 }
 
 .p-header {
@@ -509,5 +551,27 @@ body {
   font-size: 36px;
   color: white;
   font-weight: bold;
+}
+
+.p-archive__pagination {
+  display: flex;
+  justify-content: space-between;
+  margin: 60px 19px 31px 19px;
+}
+.p-archive__pagination-previous {
+  display: flex;
+}
+.p-archive__pagination-previous-img {
+  position: relative;
+  top: 3px;
+  margin-right: 8px;
+}
+.p-archive__pagination-next {
+  display: flex;
+}
+.p-archive__pagination-next-img {
+  position: relative;
+  top: 3px;
+  margin-left: 8px;
 }
 /*# sourceMappingURL=style.css.map */

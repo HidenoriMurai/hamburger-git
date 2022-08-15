@@ -50,3 +50,18 @@
         display: flex;
         justify-content:flex-end;
 }
+
+//アーカイブbtn(詳しく）
+
+.c-btn__archive{
+        font-size: 16px;
+        font-weight: bold;
+        display: inline-block;
+        background:#fff;
+        color: #707070; 
+        padding: 10px 41px; 
+        border-radius: 30px;
+        margin: 40px 0 44px 0;
+        position: relative;
+        left: 25%;
+}
