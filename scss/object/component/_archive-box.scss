@@ -4,6 +4,7 @@
     margin: 19px 19px 0 19px;
         @include b.tab{
             display: flex;
+            margin: 19px 35px 0 35px;
         }
 
     &__image{

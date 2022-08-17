@@ -79,9 +79,12 @@
         @include b.sp{
                 display: none;
         }
+        @include b.pc{
+                margin: 0 7.5px 0 7.5px;
+        }
 }
 
-.p-archive__pagination__no-li-1{
+.c-archive__pagination__no-li-1{
         text-decoration: none;
         border: solid;
         color: #fff;
@@ -91,5 +94,7 @@
         @include b.sp{
                 display: none;
         }
-
+        @include b.pc{
+                margin: 0 7.5px 0 7.5px;
+        }
 }
