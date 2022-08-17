@@ -71,11 +71,12 @@
 
 //アーカイブページ送りボタン
 .c-archive__pagination__btn{
+        font-size: 12px;
         text-decoration: none;
-        border: solid;
+        border: 1px solid;
         color: #3C2B1C;
         border-color: #3C2B1C;
-        padding: 0 6px 0 6px;
+        padding: 2px 8px 2px 8px;
         @include b.sp{
                 display: none;
         }
@@ -85,12 +86,13 @@
 }
 
 .c-archive__pagination__no-li-1{
+        font-size: 12px;
         text-decoration: none;
-        border: solid;
+        border: 1px solid;
         color: #fff;
         background-color: #3C2B1C;
         border-color: #3C2B1C;
-        padding: 0 6px 0 6px;
+        padding: 2px 8px 2px 8px;
         @include b.sp{
                 display: none;
         }
