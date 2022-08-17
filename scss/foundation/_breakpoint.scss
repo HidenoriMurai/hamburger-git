@@ -1,8 +1,17 @@
 
 
 /*ブレークポイント*/
+$sp:599px;
 $tab: 600px;  //以上
 $pc: 1200px;   //以上
+
+
+@mixin sp{
+    @media (max-width: ($sp)) {
+    @content;
+    }
+}
+
 
 
 @mixin tab{

@@ -12,6 +12,9 @@
     &__inner{
         position: relative;
         background-color: #3C2B1C;
+            @include b.sp{
+                bottom: 7px;
+            }
     }
     &__ttl{
         color: #fff;

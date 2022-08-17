@@ -1,3 +1,5 @@
+@use "../../foundation/breakpoint" as b;
+
 //メニュー
 .c-button-box{
         display: flex;
@@ -64,4 +66,30 @@
         margin: 40px 0 44px 0;
         position: relative;
         left: 25%;
+}
+
+
+//アーカイブページ送りボタン
+.c-archive__pagination__btn{
+        text-decoration: none;
+        border: solid;
+        color: #3C2B1C;
+        border-color: #3C2B1C;
+        padding: 0 6px 0 6px;
+        @include b.sp{
+                display: none;
+        }
+}
+
+.p-archive__pagination__no-li-1{
+        text-decoration: none;
+        border: solid;
+        color: #fff;
+        background-color: #3C2B1C;
+        border-color: #3C2B1C;
+        padding: 0 6px 0 6px;
+        @include b.sp{
+                display: none;
+        }
+
 }
