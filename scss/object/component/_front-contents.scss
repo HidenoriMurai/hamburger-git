@@ -30,6 +30,9 @@
                     width:100%;
                     margin: 30px 15px 20px 30px;
                 }
+                @include b.pc{
+                    margin: 60px 20px 60px 50px;
+                }
 
 
         &--logo{
@@ -81,6 +84,9 @@
                 width: 100%;
                 top: 20px;
                 margin: 10px 30px 49px 15px;
+            }
+            @include b.pc{
+                margin: 40px 50px 60px 20px;
             }
 
 
