@@ -5,6 +5,9 @@
         display: flex;
         justify-content: flex-end;
         width: 100%;
+        @include b.pc{
+                display: none;
+        }
 }
 
 
@@ -26,6 +29,9 @@
         position: relative;
         cursor:pointer;
         margin: 25px 17px 0 0;
+        @include b.pc{
+                display: none;
+        }
 }
 .c-btn__hamburger-bar {
         display: block;
@@ -65,8 +71,13 @@
         border-radius: 30px;
         margin: 40px 0 44px 0;
         position: relative;
-        left: 25%;
+
+        &-layout{
+                display: flex;
+                justify-content: center;
+        }
 }
+
 
 
 //アーカイブページ送りボタン
