@@ -38,3 +38,14 @@ $(".js-btn__hamburger").click(function () {//クリックされたら
     $(".l-body").removeClass('l-body_scroll');//クラスも除去
 });
 
+/*ブラウザサイズ変更時メニュー閉じ */
+//メニューリセット
+$(window).resize(function() {
+    $(".p-aside").removeClass('p-aside-open');//クラスも除去
+    $(".p-aside").next("p-aside").hide;
+    $(".overlay").fadeOut();
+    });
+
+
+
+
