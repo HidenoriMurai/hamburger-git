@@ -4,6 +4,11 @@
     display: flex;
     justify-content:space-between;
     margin: 60px 19px 31px 19px;
+        @include b.tab{
+            justify-content: center;
+            align-items: center;
+
+        }
         @include b.pc{
             justify-content: center;
             align-items: center;

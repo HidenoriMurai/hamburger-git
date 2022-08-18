@@ -96,11 +96,9 @@
         color: #3C2B1C;
         border-color: #3C2B1C;
         padding: 2px 8px 2px 8px;
+        margin: 0 7.5px 0 7.5px;
         @include b.sp{
                 display: none;
-        }
-        @include b.pc{
-                margin: 0 7.5px 0 7.5px;
         }
 }
 
@@ -112,10 +110,8 @@
         background-color: #3C2B1C;
         border-color: #3C2B1C;
         padding: 2px 8px 2px 8px;
+        margin: 0 7.5px 0 7.5px;
         @include b.sp{
                 display: none;
-        }
-        @include b.pc{
-                margin: 0 7.5px 0 7.5px;
         }
 }

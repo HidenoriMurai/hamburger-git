@@ -45,7 +45,9 @@ $(window).resize(function() {
     $(".p-aside").next("p-aside").hide;
     $(".overlay").fadeOut();
     });
-
-
+//リサイズ時overfrow:hidenn解除
+    $(window).resize(function() {
+        $(".l-body").removeClass('l-body_scroll');//クラスも除去
+        });
 
 
