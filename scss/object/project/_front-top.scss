@@ -10,6 +10,9 @@
         height: 285px;
         width: 100%;
         vertical-align: bottom;
+        @include b.pc{
+            height: 530px;
+        }
     }
 
     &-sub-title{
@@ -23,6 +26,12 @@
 
             @include b.tab{
                 display: none;
+            }
+            @include b.pc{
+                display:flex;
+                align-items: center;
+                height: 100%;
+                padding: 0 0 140px 25px;
             }
     }
 }

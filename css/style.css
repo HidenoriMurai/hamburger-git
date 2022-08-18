@@ -164,7 +164,7 @@ body {
 
 .c-front__menu-icon {
   content: "";
-  height: 5px;
+  height: 2px;
   width: 45px;
   background: #fff;
 }
@@ -476,6 +476,11 @@ body {
     height: auto;
   }
 }
+@media (min-width: 1200px) {
+  .p-front__map {
+    height: 650px;
+  }
+}
 .p-front__map-bg {
   background-color: #000;
   height: 100%;
@@ -487,13 +492,23 @@ body {
     height: auto;
   }
 }
+@media (min-width: 1200px) {
+  .p-front__map-bg {
+    height: 650px;
+  }
+}
 .p-front__map-img {
   background-image: url("/images/google-map.jpg");
   background-size: cover;
-  width: 100vw;
+  width: 100%;
   height: 100%;
   opacity: 0.6;
   position: absolute;
+}
+@media (min-width: 1200px) {
+  .p-front__map-img {
+    height: 650px;
+  }
 }
 .p-front__map-cover {
   width: 100%;
@@ -505,6 +520,12 @@ body {
 @media (min-width: 660px) {
   .p-front__map-cover {
     height: 100%;
+  }
+}
+@media (min-width: 1200px) {
+  .p-front__map-cover {
+    height: 650px;
+    width: 60%;
   }
 }
 .p-front__map-ttl {
@@ -519,7 +540,15 @@ body {
     position: inherit;
     margin: 0 0 0 42px;
     padding-top: 40px;
+    font-size: 36px;
   }
+}
+.p-front__map-ttl-icon {
+  content: "";
+  height: 2px;
+  width: 65px;
+  background: #fff;
+  margin: 30px 0 30px 0;
 }
 .p-front__map--icon {
   content: "";
@@ -537,6 +566,12 @@ body {
 @media (min-width: 660px) {
   .p-front__map-txt {
     padding-bottom: 40px;
+  }
+}
+@media (min-width: 1200px) {
+  .p-front__map-txt {
+    width: 50%;
+    font-size: 16px;
   }
 }
 
@@ -596,6 +631,18 @@ body {
     width: 100%;
   }
 }
+.p-aside__menu-logo {
+  display: none;
+}
+@media (min-width: 1200px) {
+  .p-aside__menu-logo {
+    display: flex;
+    font-size: 34px;
+    font-weight: bold;
+    color: #707070;
+    padding: 80px 0 0 44px;
+  }
+}
 .p-aside__bg {
   width: 375px;
   background-color: #F2EDE9;
@@ -652,6 +699,11 @@ body {
   width: 100%;
   vertical-align: bottom;
 }
+@media (min-width: 1200px) {
+  .p-front__top-images {
+    height: 530px;
+  }
+}
 .p-front__top-sub-title {
   position: absolute;
   padding: 120px 0 0 25px;
@@ -664,6 +716,14 @@ body {
 @media (min-width: 660px) {
   .p-front__top-sub-title {
     display: none;
+  }
+}
+@media (min-width: 1200px) {
+  .p-front__top-sub-title {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    padding: 0 0 140px 25px;
   }
 }
 
