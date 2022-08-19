@@ -48,12 +48,33 @@
             border-radius: 10px 10px 10px 10px;
             border: 1px solid #000;
             background-color: #fff;
+            z-index: 5;
                 @include b.tab{
                     width: 50%;
                     max-width: 700px;
                 }
                 @include b.pc{
                     width: 396px;
+                }
+                &-name{
+                    width: 340px;
+                    @include b.sp{
+                        display:none;
+                    }
+                    @include b.tab{
+                        color:#707070;
+                        font-size: 16px;
+                        font-weight: bold;
+                        z-index: 100;
+                        position: relative;
+                        top:20px;
+                        right: 65px;
+                    }
+                    @include b.pc{
+                        position:relative;
+                        bottom: 25px;
+                        right: 65px;
+                    }
                 }
         }
 

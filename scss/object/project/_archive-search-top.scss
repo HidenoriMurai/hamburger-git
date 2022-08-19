@@ -1,6 +1,6 @@
 @use "../../foundation/breakpoint" as b;
 
-.p-archive__top{
+.p-archive-search__top{
     display: flex;
 
     &-bg{
@@ -28,7 +28,7 @@
         color: white;
         font-weight: bold;
         @include b.tab{
-            padding: 120px 0 0 85px;
+            padding: 120px 0 0 50px;
             font-size: 60px;
         }
         &-1{
