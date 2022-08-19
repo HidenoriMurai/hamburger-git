@@ -419,7 +419,7 @@ body {
   }
 }
 .p-header__search-name {
-  width: 340px;
+  width: 120px;
 }
 @media (max-width: 623px) {
   .p-header__search-name {
@@ -434,7 +434,7 @@ body {
     z-index: 100;
     position: relative;
     top: 20px;
-    right: 55px;
+    left: 50px;
   }
 }
 @media (min-width: 1200px) {
