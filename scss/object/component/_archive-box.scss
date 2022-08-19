@@ -9,6 +9,7 @@
 
     &__image{
         width: 100%;
+        object-fit:fill;
     }
     &__inner{
         position: relative;

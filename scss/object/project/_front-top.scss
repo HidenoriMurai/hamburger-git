@@ -10,6 +10,7 @@
         height: 285px;
         width: 100%;
         vertical-align: bottom;
+        object-fit:cover;
         @include b.pc{
             height: 530px;
         }

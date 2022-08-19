@@ -319,6 +319,8 @@ body {
 }
 .c-archive-box__image {
   width: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
 }
 .c-archive-box__inner {
   position: relative;
@@ -750,6 +752,8 @@ body {
   height: 285px;
   width: 100%;
   vertical-align: bottom;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 @media (min-width: 1200px) {
   .p-front__top-images {
