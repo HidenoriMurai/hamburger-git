@@ -17,6 +17,14 @@
     &-previous{
         display: flex;
 
+        &-txt{
+            font-size: 16px;
+            font-weight: lighter;
+            @include b.tab{
+                display: none;
+            }
+        }
+
         &-img{
             position: relative;
             top:3px;
@@ -32,6 +40,14 @@
     }
     &-next{
         display:flex;
+
+        &-txt{
+            font-size: 16px;
+            font-weight: lighter;
+            @include b.tab{
+                display: none;
+            }
+        }
 
         &-img{
             position: relative;
