@@ -1,3 +1,4 @@
+@use "../../foundation/breakpoint" as b;
 
 .c-text-box{
 
@@ -5,6 +6,9 @@
         font-size: 28px;
         font-weight: bold;
         margin: 30px 0 30px 22px;
+            @include b.tab{
+                margin: 30px 0 30px 32px;
+            }
     }
 
     &__text{
@@ -12,5 +16,8 @@
         font-weight: lighter;
         line-height: 23px;
         margin: 0 22px 0 22px;
+            @include b.tab{
+                margin: 0 22px 37px 32px;
+            }
     }
 }
