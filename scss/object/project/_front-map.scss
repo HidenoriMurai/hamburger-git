@@ -5,26 +5,16 @@
 
         &__map{
     width: 100%;
-    height: 691px;
     @include b.tab{
         height: auto;
-        }
-        @include b.pc{
-            height: 650px;
         }
     }
 
     &__map-bg{
         background-color: #000;
-        height: 100%;
+        height:auto;
         width: 100%;
         position: relative;
-            @include b.tab{
-                height: auto;
-            }
-            @include b.pc{
-                height: 650px;
-            }
     }
 
     &__map-img{
@@ -34,15 +24,13 @@
         height: 100%;
         opacity: calc(0.6);
         position: absolute;
-            @include b.pc{
-                height: 650px;
-            }
     }
 
 
     &__map-cover{
         width: 100%;
-        height: 415px;
+        min-height: 415px;
+        height: 50%;
         background-color: #000;
         opacity: calc(0.29);
         position: absolute;
@@ -50,7 +38,6 @@
                 height: 100%;  
             }
             @include b.pc{
-                height: 650px;
                 width: 60%;
             }
     }
@@ -66,6 +53,9 @@
             margin: 0 0 0 42px;
             padding-top: 40px;
             font-size: 36px;
+            @include b.pc{
+                margin: 40px 0 0 67px;
+            }
         }
         &-icon{
             content: '';
@@ -76,31 +66,21 @@
         }
     }
 
-    &__map--icon{
-        content: '';
-        height: 2px;
-        width: 75px;
-        background:#fff;
-        margin: 10px 0 0 0;
-    }
 
     &__map-txt{
+        position: relative;
         font-size: 14px;
         font-weight: bold;
         line-height: 33px;
-        margin: 10px 40px 0 0;
+        color: #fff;
+        padding:140px 40px 40px 40px;
         @include b.tab{
-            padding-bottom: 40px;
+            padding:10px 40px 40px 40px;
         }
         @include b.pc{
             width: 50%;
             font-size: 16px;
+            padding:10px 0px 40px 70px;
         }
     }
-
-
-
-
-
-
 }
