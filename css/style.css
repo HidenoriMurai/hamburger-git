@@ -547,7 +547,7 @@ body {
 }
 .p-front__map-cover {
   width: 100%;
-  min-height: 300px;
+  min-height: 180px;
   height: 50%;
   background-color: #000;
   opacity: 0.29;
