@@ -192,7 +192,7 @@ body {
 }
 @media (min-width: 1200px) {
   .c-front__take-out {
-    margin: 60px 20px 60px 50px;
+    margin: 60px 20px 30px 50px;
   }
 }
 .c-front__take-out--logo {
@@ -241,7 +241,7 @@ body {
 }
 @media (min-width: 1200px) {
   .c-front__eat-in {
-    margin: 40px 50px 80px 20px;
+    margin: 40px 50px 50px 20px;
   }
 }
 .c-front__eat-in--logo {
@@ -547,7 +547,7 @@ body {
 }
 .p-front__map-cover {
   width: 100%;
-  min-height: 415px;
+  min-height: 300px;
   height: 50%;
   background-color: #000;
   opacity: 0.29;
