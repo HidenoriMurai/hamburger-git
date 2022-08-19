@@ -21,7 +21,7 @@
             font-size: 34px;
             font-weight: bold;
             color: #707070;
-            padding: 80px 0 0 44px;
+            padding: 30px 0 0 44px;
         }
     }
     
@@ -39,11 +39,14 @@
     }
 
     &__burger{
-        padding-top: 212px;
+        padding-top: 160px;
         font-size: 24px;
         font-weight: bold;
         margin: 0 0 0 46px;
         color: #707070;
+            @include b.pc{
+                padding-top: 80px;
+            }
     }
 
     &__burger-menu{

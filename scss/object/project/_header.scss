@@ -49,6 +49,7 @@
             border: 1px solid #000;
             background-color: #fff;
             z-index: 5;
+            padding-left:25px ;
                 @include b.tab{
                     width: 50%;
                     max-width: 700px;
@@ -103,7 +104,7 @@
             z-index: 30;
             cursor: pointer;
                     @include b.tab{
-                        right: 23%;
+                        right: 24%;
                         transform:translateX(-50px);
                     }
                     @include b.pc{

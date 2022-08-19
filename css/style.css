@@ -405,6 +405,7 @@ body {
   border: 1px solid #000;
   background-color: #fff;
   z-index: 5;
+  padding-left: 25px;
 }
 @media (min-width: 624px) {
   .p-header__search {
@@ -470,7 +471,7 @@ body {
 }
 @media (min-width: 624px) {
   .p-header__search-icon1 {
-    right: 23%;
+    right: 24%;
     transform: translateX(-50px);
   }
 }
@@ -685,7 +686,7 @@ body {
     font-size: 34px;
     font-weight: bold;
     color: #707070;
-    padding: 80px 0 0 44px;
+    padding: 30px 0 0 44px;
   }
 }
 .p-aside__bg {
@@ -701,11 +702,16 @@ body {
   }
 }
 .p-aside__burger {
-  padding-top: 212px;
+  padding-top: 160px;
   font-size: 24px;
   font-weight: bold;
   margin: 0 0 0 46px;
   color: #707070;
+}
+@media (min-width: 1200px) {
+  .p-aside__burger {
+    padding-top: 80px;
+  }
 }
 .p-aside__burger-menu {
   margin: 40px 0 0 66px;
