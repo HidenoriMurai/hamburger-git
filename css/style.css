@@ -985,6 +985,24 @@ body {
   font-size: 24px;
   font-weight: bold;
 }
+.p-single-s-img {
+  margin-top: 30px;
+  height: 124px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.p-single__quote {
+  margin: 30px 20px 0 0;
+  background-color: #F5F5F5;
+  height: auto;
+}
+.p-single__quote-txt {
+  padding: 30px 20px 30px 20px;
+}
+.p-single__quote-name {
+  padding: 0 0 30px 20px;
+}
 
 .u-txt_size {
   font-size: 20px;
