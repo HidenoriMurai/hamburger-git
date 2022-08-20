@@ -51,12 +51,6 @@ $(window).resize(function() {
         $(".l-body").removeClass('l-body_scroll');//クラスも除去
         });
 
-//検索フォーム明示リセット
-$(function(){
-    $(".js-header__search-name").on("click",function(){
-        $(".js-header__search-name").hide();
-    });
-});
 
 
 

@@ -320,13 +320,18 @@ body {
 @media (min-width: 624px) {
   .c-archive-box {
     display: flex;
-    margin: 19px 35px 0 35px;
+    margin: 25px 0 0 5%;
+    width: 90%;
   }
 }
 .c-archive-box__image {
-  width: 100%;
-  -o-object-fit: fill;
-     object-fit: fill;
+  max-width: 100%;
+  height: auto;
+}
+@media (min-width: 624px) {
+  .c-archive-box__image {
+    width: 50%;
+  }
 }
 .c-archive-box__inner {
   position: relative;
@@ -335,6 +340,11 @@ body {
 @media (max-width: 623px) {
   .c-archive-box__inner {
     bottom: 7px;
+  }
+}
+@media (min-width: 624px) {
+  .c-archive-box__inner {
+    width: 50%;
   }
 }
 .c-archive-box__ttl {
@@ -403,6 +413,7 @@ body {
     position: relative;
     justify-content: flex-end;
     padding: 0 20px 0 0;
+    height: 46px;
   }
 }
 .p-header__search {
@@ -413,7 +424,7 @@ body {
   border: 1px solid #000;
   background-color: #fff;
   z-index: 5;
-  padding-left: 25px;
+  padding-left: 45px;
 }
 @media (min-width: 624px) {
   .p-header__search {
@@ -423,33 +434,9 @@ body {
 }
 @media (min-width: 1200px) {
   .p-header__search {
-    width: 396px;
-  }
-}
-.p-header__search-name {
-  width: 120px;
-}
-@media (max-width: 623px) {
-  .p-header__search-name {
-    display: none;
-  }
-}
-@media (min-width: 624px) {
-  .p-header__search-name {
-    color: #707070;
-    font-size: 16px;
-    font-weight: bold;
-    z-index: 100;
-    position: relative;
-    top: 20px;
-    left: 50px;
-  }
-}
-@media (min-width: 1200px) {
-  .p-header__search-name {
-    position: relative;
-    bottom: 25px;
-    right: 55px;
+    width: 75%;
+    position: absolute;
+    margin-right: 120px;
   }
 }
 .p-header__submit {
@@ -466,6 +453,11 @@ body {
     margin: 0 0 0 14px;
   }
 }
+@media (min-width: 1200px) {
+  .p-header__submit {
+    position: absolute;
+  }
+}
 .p-header__search-icon1 {
   margin: auto;
   bottom: 55px;
@@ -480,14 +472,15 @@ body {
 @media (min-width: 624px) {
   .p-header__search-icon1 {
     right: 24%;
-    transform: translateX(-50px);
+    transform: translateX(-52px);
   }
 }
 @media (min-width: 1200px) {
   .p-header__search-icon1 {
-    position: absolute;
-    margin: 20px 260px 0 0;
     bottom: 10px;
+    display: flex;
+    justify-content: flex-start;
+    transform: translateX(-125px);
   }
 }
 .p-header__search-icon2 {
@@ -615,7 +608,7 @@ body {
   width: 100%;
 }
 .p-footer__bg {
-  background-image: url("/images/footer.png");
+  background-image: url("/images/footer-pc.jpg");
   height: 150px;
   width: 100%;
 }
@@ -755,11 +748,6 @@ body {
   font-size: 36px;
   color: white;
   font-weight: bold;
-}
-@media (min-width: 624px) {
-  .p-front__top-sub-title {
-    display: none;
-  }
 }
 @media (min-width: 1200px) {
   .p-front__top-sub-title {

@@ -4,18 +4,27 @@
     margin: 19px 19px 0 19px;
         @include b.tab{
             display: flex;
-            margin: 19px 35px 0 35px;
+            margin: 25px 0 0 5%;
+            width: 90%;
         }
 
     &__image{
-        width: 100%;
-        object-fit:fill;
+
+        max-width: 100%;
+        height: auto;
+        @include b.tab{
+            width: 50%;
+        }
+    
     }
     &__inner{
         position: relative;
         background-color: #3C2B1C;
             @include b.sp{
                 bottom: 7px;
+            }
+            @include b.tab{
+                width: 50%;
             }
     }
     &__ttl{
