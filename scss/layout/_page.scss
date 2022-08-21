@@ -1,0 +1,11 @@
+@use "../foundation/breakpoint" as b;
+.l-page__contents{
+    margin: 0 20px 0 20px;
+    @include b.tab{
+        margin: 0 60px 0 60px;
+    }
+    @include b.pc{
+        margin: 0 100px 0 100px;
+
+    }
+}

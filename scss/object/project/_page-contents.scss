@@ -1,6 +1,6 @@
 @use "../../foundation/breakpoint" as b;
 //見出しテキストボックス
-.p-single__text-box{
+.p-page__text-box{
     color: #3C2A10;
     margin-left: 0px;
     &__ttl{
@@ -22,7 +22,7 @@
     }
 }
 
-.p-single{
+.p-page{
     &__ttl3{
         margin-top: 30px;
         font-size: 24px;
@@ -43,7 +43,7 @@
 }
 
 //引用
-.p-single__quote{
+.p-page__quote{
     margin-top: 30px;
     background-color: #F5F5F5;
     height: auto;
@@ -64,7 +64,7 @@
 
 //テキスト入りボックス
 
-.p-single__box{
+.p-page__box{
     width: 100%;
     &-1{
         display: flex;
@@ -130,7 +130,7 @@
 }
 
 //グリッドレイアウト
-.p-single__grid{
+.p-page__grid{
     margin-bottom:30px;
     display: grid;
     gap: 20px;
@@ -148,10 +148,10 @@
 }
 
 //リスト項目
-.p-single__list{
+.p-page__list{
     &--1{
         @include b.tab{
-            margin-left: 50px;
+            margin-left:50px;
         }
         
     }
@@ -167,7 +167,7 @@
 }
 
 //コード
-.p-single__code{
+.p-page__code{
     background-color: #F5F5F5;
     margin-bottom:30px;
     @include b.tab{
@@ -176,7 +176,7 @@
 }
 
 //テーブル
-.p-single__table{
+.p-page__table{
     border-collapse: collapse;
     width: 100%;
     margin-bottom: 30px;
@@ -204,10 +204,10 @@
 }
 
 //テキスト
-.p-single__txt{
+.p-page__txt{
     font-size: 16px;
     font-weight: bold;
-    margin-bottom: 177px;
+    margin-bottom: 180px;
     @include b.tab{
         margin: 30px 0 230px 0;
     }
