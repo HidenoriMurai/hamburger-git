@@ -42,11 +42,13 @@
     height: auto;
 
     &-txt{
-        padding: 30px 20px 30px 20px;
+        padding: 30px 20px 76px 20px;
     }
 
     &-name{
-        padding:0 0 30px 20px;
+        padding-left: 20px;
+        position: relative;
+        bottom: 30px;
     }
 }
 
