@@ -2,11 +2,11 @@
 //見出しテキストボックス
 .p-single__text-box{
     color: #3C2A10;
-    margin-left: 20px;
+    margin-left: 0px;
     &__ttl{
         font-size: 28px;
         font-weight: bold;
-        margin: 30px 0 30px 0px;
+        margin-bottom: 30px;
             @include b.tab{
                 margin: 30px 0 30px 0px;
             }
@@ -16,9 +16,8 @@
         font-size: 16px;
         font-weight: lighter;
         line-height: 23px;
-        margin: 0 20px 0 0px;
             @include b.tab{
-                margin: 0 22px 37px 0px;
+                margin-bottom:37px;
             }
     }
 }
@@ -31,7 +30,6 @@
     }
     &-s-img{
         margin-top: 30px;
-        padding-right: 20px;
         width: 100%;
         object-fit: cover;
     }
@@ -39,7 +37,7 @@
 
 //引用
 .p-single__quote{
-    margin: 30px 20px 0 0;
+    margin-top: 30px;
     background-color: #F5F5F5;
     height: auto;
 
@@ -56,7 +54,6 @@
 
 .p-single__box{
     width: 100%;
-    padding-right: 20px;
     &-1{
         display: flex;
         margin-top: 30px;
@@ -90,7 +87,7 @@
 
 //グリッドレイアウト
 .p-single__grid{
-    margin:0 20px 30px  0;
+    margin-bottom:30px;
     display: grid;
     gap: 20px;
     @include b.tab{
@@ -125,5 +122,35 @@
 //コード
 .p-single__code{
     background-color: #F5F5F5;
-    margin: 0 20px 30px 0;
+    margin-bottom:30px;
 }
+
+//テーブル
+.p-single__table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
+    &-th1{
+        font-weight: inherit;
+        text-align: start;
+        padding: 27px 0 28px 30px;
+        width: 40%;
+    }
+    &-th2{
+        text-align: start;
+        font-weight: inherit;
+        padding: 27px 0 28px 30px;
+        width: 60%;
+    }
+
+        &-td1{
+            padding: 27px 0 28px 30px;
+            width: 40%;
+        }
+        &-td2{
+            padding: 27px 0 28px 30px;
+            width: 60%;
+        }
+}
+
+
