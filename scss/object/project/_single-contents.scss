@@ -27,6 +27,9 @@
         margin-top: 30px;
         font-size: 24px;
         font-weight: bold;
+        @include b.tab{
+            margin-top: 60px;
+        }
     }
     &-s-img{
         margin-top: 30px;
@@ -40,6 +43,9 @@
     margin-top: 30px;
     background-color: #F5F5F5;
     height: auto;
+    @include b.tab{
+        margin-top: 60px;
+    }
 
     &-txt{
         padding: 30px 20px 76px 20px;
@@ -79,11 +85,18 @@
         margin-right: 10px;
     }
 
+
+    &-bottom{
+        display: flex;
+        justify-content: center;
+    }
     &-bottomーimg{
         width: 100%;
         object-fit: fill;
         margin:30px 0 30px 0;
         padding: 0 30px 0 30px;
+        max-width: 581px;
+        max-height: 358px;
     }   
 }
 
@@ -106,10 +119,10 @@
 //リスト項目
 .p-single__list{
     &--1{
-
+        margin-left: 90px;
     }
     &--2{
-        margin: 60px 0 30px 0;
+        margin: 60px 0 30px 90px;
 
     }
 
@@ -160,4 +173,7 @@
     font-size: 16px;
     font-weight: bold;
     margin-bottom: 177px;
+    @include b.tab{
+        margin: 30px 0 230px 0;
+    }
 }
