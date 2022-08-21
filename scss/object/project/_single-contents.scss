@@ -1,0 +1,129 @@
+@use "../../foundation/breakpoint" as b;
+//見出しテキストボックス
+.p-single__text-box{
+    color: #3C2A10;
+    margin-left: 20px;
+    &__ttl{
+        font-size: 28px;
+        font-weight: bold;
+        margin: 30px 0 30px 0px;
+            @include b.tab{
+                margin: 30px 0 30px 0px;
+            }
+    }
+
+    &__text{
+        font-size: 16px;
+        font-weight: lighter;
+        line-height: 23px;
+        margin: 0 20px 0 0px;
+            @include b.tab{
+                margin: 0 22px 37px 0px;
+            }
+    }
+}
+
+.p-single{
+    &__ttl3{
+        margin-top: 30px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    &-s-img{
+        margin-top: 30px;
+        padding-right: 20px;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+//引用
+.p-single__quote{
+    margin: 30px 20px 0 0;
+    background-color: #F5F5F5;
+    height: auto;
+
+    &-txt{
+        padding: 30px 20px 30px 20px;
+    }
+
+    &-name{
+        padding:0 0 30px 20px;
+    }
+}
+
+//テキスト入りボックス
+
+.p-single__box{
+    width: 100%;
+    padding-right: 20px;
+    &-1{
+        display: flex;
+        margin-top: 30px;
+    }
+    &-2{
+        display: flex;
+        margin: 30px 0 30px 0;
+    }
+    &--image1{
+        width: 140px;
+        height: 90px;
+        object-fit: fill;
+        margin-right: 10px;
+    }
+    &--image2{
+        width: 140px;
+        height: 90px;
+        object-fit: fill;
+    }
+    &--text2{
+        margin-right: 10px;
+    }
+
+    &-bottomーimg{
+        width: 100%;
+        object-fit: fill;
+        margin:30px 0 30px 0;
+        padding: 0 30px 0 30px;
+    }   
+}
+
+//グリッドレイアウト
+.p-single__grid{
+    margin:0 20px 30px  0;
+    display: grid;
+    gap: 20px;
+    @include b.tab{
+    grid-template-columns:repeat(2,1fr);
+    grid-template-rows:repeat(5,1fr);
+
+    }
+    @include b.pc{
+    grid-template-columns:repeat(3,1fr);
+    grid-template-rows:repeat(3,1fr);
+    }
+}
+
+//リスト項目
+.p-single__list{
+    &--1{
+
+    }
+    &--2{
+        margin: 60px 0 30px 0;
+
+    }
+
+    &--left{
+
+    }
+    &--right{
+        margin: 20px 0 20px 20px;
+    }
+}
+
+//コード
+.p-single__code{
+    background-color: #F5F5F5;
+    margin: 0 20px 30px 0;
+}
