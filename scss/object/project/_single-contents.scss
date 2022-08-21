@@ -150,6 +150,7 @@
 //リスト項目
 .p-single__list{
     &--1{
+        list-style: none;
         @include b.tab{
             margin-left: 50px;
         }
@@ -157,6 +158,7 @@
     }
     &--2{
         margin: 60px 0 30px 0;
+        list-style: none;
         @include b.tab{
             margin: 60px 0 60px 50px;
         }

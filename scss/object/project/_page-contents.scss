@@ -150,6 +150,7 @@
 //リスト項目
 .p-page__list{
     &--1{
+        list-style: none;
         @include b.tab{
             margin-left:50px;
         }
