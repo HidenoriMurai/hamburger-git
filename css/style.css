@@ -945,6 +945,8 @@ body {
   vertical-align: bottom;
   width: 100%;
   height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .p-single__top-sub-title {
   position: absolute;
@@ -983,7 +985,7 @@ body {
 .p-single__text-box__ttl {
   font-size: 28px;
   font-weight: bold;
-  margin-bottom: 30px;
+  margin: 30px 0 30px 0;
 }
 @media (min-width: 624px) {
   .p-single__text-box__ttl {
@@ -1033,23 +1035,23 @@ body {
 .p-single__box-1 {
   display: flex;
   margin-top: 30px;
+  align-items: flex-start;
 }
 .p-single__box-2 {
   display: flex;
   margin: 30px 0 30px 0;
+  align-items: flex-start;
 }
 .p-single__box--image1 {
-  width: 140px;
-  height: 90px;
-  -o-object-fit: fill;
-     object-fit: fill;
+  width: 40%;
+  -o-object-fit: contain;
+     object-fit: contain;
   margin-right: 10px;
 }
 .p-single__box--image2 {
-  width: 140px;
-  height: 90px;
-  -o-object-fit: fill;
-     object-fit: fill;
+  width: 40%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 .p-single__box--text2 {
   margin-right: 10px;
