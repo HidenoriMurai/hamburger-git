@@ -28,6 +28,11 @@ body {
 .l-body_scroll {
   overflow: hidden;
 }
+@media (min-width: 1200px) {
+  .l-body_scroll {
+    overflow: inherit;
+  }
+}
 
 @media (min-width: 1200px) {
   .l-column {

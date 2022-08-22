@@ -1,4 +1,7 @@
-
+@use "../foundation/breakpoint" as b;
 .l-body_scroll{
     overflow: hidden;
+    @include b.pc{
+        overflow: inherit;
+    }
 }
