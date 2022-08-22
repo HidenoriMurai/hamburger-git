@@ -79,6 +79,12 @@
         border-radius: 30px;
         margin: 40px 0 44px 0;
         position: relative;
+        @include b.pc{
+                width: 43%;
+                padding: 5% 0 5% 0; 
+
+                border-radius: 60px;
+        }
 
         &-layout{
                 display: flex;
