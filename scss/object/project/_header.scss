@@ -24,6 +24,10 @@
             height: 53px;
             font-size: 40px;
             color: #707070;
+            @include b.pc{
+                font-size: 64px;
+                bottom: 30px;
+            }
         }
 
 
