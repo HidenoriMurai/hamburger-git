@@ -1266,6 +1266,14 @@ body {
   width: 60%;
 }
 
+.p-single__table th {
+  border: 1px solid #707070;
+}
+
+.p-single__table td {
+  border: 1px solid #707070;
+}
+
 .p-single__txt {
   font-size: 16px;
   font-weight: bold;
@@ -1548,6 +1556,14 @@ body {
 .p-page__table-td2 {
   padding: 27px 0 28px 30px;
   width: 60%;
+}
+
+.p-page__table th {
+  border: 1px solid #707070;
+}
+
+.p-page__table td {
+  border: 1px solid #707070;
 }
 
 .p-page__txt {
