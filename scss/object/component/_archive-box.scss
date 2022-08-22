@@ -51,5 +51,11 @@
         font-weight: lighter;
         color: #fff;
         margin: 10px 73px 0 17px;
+        @include b.tab{
+            margin: 10px 59px 0 17px;
+        }
+        @include b.pc{
+            margin: 10px 104px 0 17px;
+        }
     }
 }

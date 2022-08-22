@@ -426,6 +426,16 @@ body {
   color: #fff;
   margin: 10px 73px 0 17px;
 }
+@media (min-width: 624px) {
+  .c-archive-box__text {
+    margin: 10px 59px 0 17px;
+  }
+}
+@media (min-width: 1200px) {
+  .c-archive-box__text {
+    margin: 10px 104px 0 17px;
+  }
+}
 
 .c-size__grid-img {
   width: 100%;
