@@ -466,6 +466,10 @@ body {
   width: 100%;
 }
 
+.p-header > a {
+  text-decoration: none;
+}
+
 .p-header {
   width: 100vw;
   display: flex;
